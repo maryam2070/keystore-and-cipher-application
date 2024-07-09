@@ -24,7 +24,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             KeyStoreAndCipherApplicationTheme {
 
-                Log.d("hhh", AESCrypt.decrypt(AESCrypt.encrypt("123456")))
+                Log.d("test", AESCrypt.decrypt(AESCrypt.encrypt("123456")))
+
             }
         }
     }
